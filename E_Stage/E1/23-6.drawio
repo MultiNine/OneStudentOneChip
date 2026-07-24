@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="�� 1 ҳ" id="KDblVEEB-wWkkLIDWHS5">
+    <mxGraphModel dx="680" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;" value="i" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;" value="pi: 0x804a024&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;" value="ppi: 0x804a020" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-6" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=HarmonyOS Sans SC;" target="ZEr9A92yksHHsJqaWKzL-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="320" />
+            </Array>
+            <mxPoint x="480" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-7" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.996;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=HarmonyOS Sans SC;" target="ZEr9A92yksHHsJqaWKzL-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="280" />
+            </Array>
+            <mxPoint x="480" y="300" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;" value="&lt;font&gt;0x804a024&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;" value="&lt;font&gt;0x804a020&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEr9A92yksHHsJqaWKzL-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;" value="&lt;font&gt;0x804a01c&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="325" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
