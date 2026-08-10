@@ -1,0 +1,121 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="Nvpo3vDaZq_TcPxBHR7d">
+    <mxGraphModel dx="998" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-8" edge="1" parent="1" source="MhL9ccTnSFkedkcAwxDx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontFamily=HarmonyOS Sans SC;entryX=0.041;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.967;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" target="MhL9ccTnSFkedkcAwxDx-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362.0000000000002" y="293" as="sourcePoint" />
+            <mxPoint x="462" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=HarmonyOS Sans SC;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;S0：水位低于&lt;br&gt;最低的传感器&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr3=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr2=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr1=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dfr=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="210" x="152" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-9" edge="1" parent="1" source="MhL9ccTnSFkedkcAwxDx-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.925;exitY=0.228;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.074;entryY=0.232;entryDx=0;entryDy=0;entryPerimeter=0;" target="MhL9ccTnSFkedkcAwxDx-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="742" y="284" as="sourcePoint" />
+            <mxPoint x="802" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=HarmonyOS Sans SC;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;S12：水位上升到&lt;br&gt;传感器1和传感器2之间&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr3=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr2=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr1=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dfr=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="462" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-13" edge="1" parent="1" source="MhL9ccTnSFkedkcAwxDx-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="MhL9ccTnSFkedkcAwxDx-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=HarmonyOS Sans SC;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;S21：&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;水位下降到&lt;br&gt;传感器1和传感器2之间&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr3=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr2=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr1=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dfr=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="117" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-10" edge="1" parent="1" source="MhL9ccTnSFkedkcAwxDx-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="MhL9ccTnSFkedkcAwxDx-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=HarmonyOS Sans SC;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;S23：&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;水位上升到&lt;br&gt;传感器2和传感器3之间&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr3=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr2=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr1=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dfr=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="802" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-12" edge="1" parent="1" source="MhL9ccTnSFkedkcAwxDx-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="MhL9ccTnSFkedkcAwxDx-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=HarmonyOS Sans SC;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;S32：&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-size: 12px; text-align: center; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;水位下降到&lt;br&gt;传感器2和传感器3之间&lt;/font&gt;&lt;/b&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D2%3B%22%20value%3D%22%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3BS23%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bfr3%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bfr2%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bfr1%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bdfr%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22130%22%20width%3D%22200%22%20x%3D%22880%22%20y%3D%22300%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr3=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr2=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr1=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dfr=1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="290" x="457" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-11" edge="1" parent="1" source="MhL9ccTnSFkedkcAwxDx-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.94;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.051;exitY=0.273;exitDx=0;exitDy=0;exitPerimeter=0;" target="MhL9ccTnSFkedkcAwxDx-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="822" y="480" as="sourcePoint" />
+            <mxPoint x="747" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=HarmonyOS Sans SC;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;S4：水位高于&lt;br&gt;最高的传感器&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;0最高的%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D2%3B%22%20value%3D%22%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3BS23%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bfr3%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bfr2%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bfr1%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2016px%3B%26quot%3B%26gt%3Bdfr%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22130%22%20width%3D%22200%22%20x%3D%22880%22%20y%3D%22300%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr3=0&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr2=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;fr1=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;dfr=0&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="210" x="822" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b001&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="382" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b011&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="742" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b111&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="942" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b011&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="762" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b001&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="397" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="MhL9ccTnSFkedkcAwxDx-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b000&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="272" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontFamily=HarmonyOS Sans SC;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="319" as="sourcePoint" />
+            <mxPoint x="152" y="318.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;reset&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="92" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontFamily=HarmonyOS Sans SC;entryX=0.041;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.967;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471" y="340" as="sourcePoint" />
+            <mxPoint x="353" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b000&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="382" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b001&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1040" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-9" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="MhL9ccTnSFkedkcAwxDx-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="770" />
+            </Array>
+            <mxPoint x="1050" y="320" as="sourcePoint" />
+            <mxPoint x="1100" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.051;exitY=0.273;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.045;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" target="MhL9ccTnSFkedkcAwxDx-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="539.5" as="sourcePoint" />
+            <mxPoint x="770" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b111&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="750" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="MhL9ccTnSFkedkcAwxDx-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="347" y="460" as="sourcePoint" />
+            <mxPoint x="397" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40m6TMN_iRdzd5gIuAmC-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;s=3&#39;b011&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="399" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
