@@ -1,0 +1,15 @@
+{
+    "value": [
+        "-Xplugin:/home/caiyaohao/.cache/coursier/v1/https/repo1.maven.org/maven2/org/chipsalliance/chisel-plugin_2.13.18/7.7.0/chisel-plugin_2.13.18-7.7.0.jar",
+        "-language:reflectiveCalls",
+        "-deprecation",
+        "-feature",
+        "-Xcheckinit",
+        "-Ymacro-annotations"
+    ],
+    "valueHash": -1678305398,
+    "inputsHash": -1316855753,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

@@ -1,0 +1,1 @@
+{"name":"mill-bsp","argv":["/home/caiyaohao/.cache/mill/download/1.3.1","--bsp","--jobs","0"],"millVersion":"1.3.1","bspVersion":"2.2.0-M2","languages":["java","scala","kotlin"]}

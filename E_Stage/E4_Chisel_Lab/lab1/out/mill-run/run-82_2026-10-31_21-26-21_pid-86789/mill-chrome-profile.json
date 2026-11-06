@@ -1,0 +1,8 @@
+[
+{"ph":"C","name":"CPU Count","ts":1611,"pid":1,"args":{"CPUS":20}},
+{"ph":"C","name":"CPU Load 0.0-1.0","ts":1611,"pid":1,"args":{"load":0.015044466403162057}},
+{"ph":"B","name":"meta-level 0","cat":"job","ts":12076,"pid":1,"tid":1},
+{"ph":"B","name":"meta-level 1","cat":"job","ts":12352,"pid":1,"tid":1},
+{"ph":"E","ts":55804,"pid":1,"tid":1},
+{"ph":"E","ts":73998,"pid":1,"tid":1}
+]

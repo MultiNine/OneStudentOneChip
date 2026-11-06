@@ -1,0 +1,30 @@
+[
+  {
+    "label": "lab1.test.sources",
+    "millis": 4,
+    "valueHashChanged": false,
+    "inputsHash": -489387672,
+    "previousInputsHash": -256028824
+  },
+  {
+    "label": "lab1.sources",
+    "millis": 4,
+    "valueHashChanged": false,
+    "inputsHash": -1904660865,
+    "previousInputsHash": -1871365119
+  },
+  {
+    "label": "lab1.resources",
+    "millis": 1,
+    "valueHashChanged": false,
+    "inputsHash": -470155057,
+    "previousInputsHash": 1346539531
+  },
+  {
+    "label": "lab1.test.resources",
+    "millis": 1,
+    "valueHashChanged": false,
+    "inputsHash": -755638630,
+    "previousInputsHash": -1070700400
+  }
+]

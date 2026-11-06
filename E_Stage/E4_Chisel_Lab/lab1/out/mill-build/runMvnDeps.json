@@ -1,0 +1,10 @@
+{
+    "value": [
+        "com.lihaoyi::mill-core-eval:1.3.1"
+    ],
+    "valueHash": -622683128,
+    "inputsHash": -1850665966,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1859020602
+}

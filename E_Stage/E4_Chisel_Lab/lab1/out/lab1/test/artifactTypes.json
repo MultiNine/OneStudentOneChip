@@ -1,0 +1,36 @@
+{
+    "value": [
+        {
+            "value": "eclipse-plugin"
+        },
+        {
+            "value": "maven-plugin"
+        },
+        {
+            "value": "bundle"
+        },
+        {
+            "value": "scala-jar"
+        },
+        {
+            "value": "klib"
+        },
+        {
+            "value": "hk2-jar"
+        },
+        {
+            "value": "orbit"
+        },
+        {
+            "value": "test-jar"
+        },
+        {
+            "value": "jar"
+        }
+    ],
+    "valueHash": -1792605870,
+    "inputsHash": 1030154432,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

@@ -1,0 +1,44 @@
+[33mmill lab1.test[39m[0K
+[0J[9999D[1A000/146, 146 left] [33mmill lab1.test[39m[0K
+[0J[9999D[1A145/146, 1 left] [33mmill lab1.test[39m[0K
+[0J[9999D[1A145/146, 1 left] [33mmill lab1.test[39m[0K
+146] [33mlab1.test.testForked[39m[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m[0K
+146] [33mlab1.test.testForked[39m [33mHelloSpec[39m[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 1s[0K
+146] [33mlab1.test.testForked[39m [33mHelloSpec[39m[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 1s[0K
+146] [33mlab1.test.testForked[39m 1s [33mHelloSpec[39m[0K
+[0J[9999D[2A[34m146] lab1.test.testForked[39m Running Test Class HelloSpec[0K
+145/146, 1 left] [33mmill lab1.test[39m 1s[0K
+146] [33mlab1.test.testForked[39m 1s [33mHelloSpec[39m[0K
+[0J[9999D[2A[34m146][39m [32mHelloSpec:[39m[0K
+145/146, 1 left] [33mmill lab1.test[39m 1s[0K
+146] [33mlab1.test.testForked[39m 1s [33mHelloSpec[39m[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 2s[0K
+146] [33mlab1.test.testForked[39m 1s [33mHelloSpec[39m[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 2s[0K
+146] [33mlab1.test.testForked[39m 2s [33mHelloSpec[39m[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 2s[0K
+146] [33mlab1.test.testForked[39m 2s [33mHelloSpec[39m 1s[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 3s[0K
+146] [33mlab1.test.testForked[39m 2s [33mHelloSpec[39m 1s[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 3s[0K
+146] [33mlab1.test.testForked[39m 3s [33mHelloSpec[39m 1s[0K
+[0J[9999D[2A145/146, 1 left] [33mmill lab1.test[39m 3s[0K
+146] [33mlab1.test.testForked[39m 3s [33mHelloSpec[39m 2s[0K
+[0J[9999D[2A[34m146][39m [32m- Hello should blink[39m[0K
+145/146, 1 left] [33mmill lab1.test[39m 3s[0K
+146] [33mlab1.test.testForked[39m 3s [33mHelloSpec[39m 2s[0K
+[0J[9999D[2A[34m146][39m [36mRun completed in 2 seconds, 156 milliseconds.[39m[0K
+[34m146][39m [36mTotal number of tests run: 1[39m[0K
+145/146, 1 left] [33mmill lab1.test[39m 3s[0K
+146] [33mlab1.test.testForked[39m 3s [33mHelloSpec[39m 2s[0K
+[0J[9999D[2A[34m146][39m [36mSuites: completed 1, aborted 0[39m[0K
+[34m146][39m [36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[39m[0K
+[34m146][39m [32mAll tests passed.[39m[0K
+145/146, 1 left] [33mmill lab1.test[39m 3s[0K
+146] [33mlab1.test.testForked[39m 3s [33mHelloSpec[39m 2s[0K
+[0J[9999D[2A146/146, [32mSUCCESS[39m] [33mmill lab1.test[39m 3s[0K
+[0J[9999D[1A146/146, [32mSUCCESS[39m] mill lab1.test 3s[0K
+[0J

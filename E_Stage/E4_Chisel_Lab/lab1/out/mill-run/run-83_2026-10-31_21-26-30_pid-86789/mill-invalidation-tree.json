@@ -1,0 +1,9 @@
+{
+  "lab1.test.javaHomePathForkEnv": {
+    "lab1.test.allForkEnv.super.RunModule": {
+      "lab1.test.allForkEnv": {
+        "lab1.test.testForked": {}
+      }
+    }
+  }
+}

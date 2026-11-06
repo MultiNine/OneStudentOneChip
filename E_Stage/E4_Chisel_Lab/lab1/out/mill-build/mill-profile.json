@@ -1,0 +1,55 @@
+[
+  {
+    "label": "bspScriptIgnore",
+    "millis": 0,
+    "cached": true,
+    "valueHashChanged": false,
+    "inputsHash": -45846468
+  },
+  {
+    "label": "bspScriptIgnoreDefault",
+    "millis": 0,
+    "cached": true,
+    "valueHashChanged": false,
+    "inputsHash": -45846468
+  },
+  {
+    "label": "bspScriptIgnoreAll",
+    "millis": 0,
+    "cached": true,
+    "valueHashChanged": false,
+    "dependencies": [
+      "bspScriptIgnoreDefault",
+      "bspScriptIgnore"
+    ],
+    "inputsHash": -1274705086
+  },
+  {
+    "label": "sources.super.javalib.JavaModule",
+    "millis": 0,
+    "valueHashChanged": false,
+    "inputsHash": -1451969853,
+    "previousInputsHash": 981929910
+  },
+  {
+    "label": "scriptSources",
+    "millis": 1,
+    "valueHashChanged": false,
+    "inputsHash": -918640852,
+    "previousInputsHash": -462221895
+  },
+  {
+    "label": "scriptSources",
+    "millis": 1,
+    "valueHashChanged": false,
+    "inputsHash": 1954264048,
+    "previousInputsHash": -918640852
+  },
+  {
+    "label": "resources.super.javalib.JavaModule",
+    "millis": 2,
+    "valueHashChanged": false,
+    "inputsHash": 248050622,
+    "previousInputsHash": 654238535
+  }
+]

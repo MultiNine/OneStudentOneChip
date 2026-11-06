@@ -1,0 +1,11 @@
+{
+    "value": [
+        "qref:v1:557c943c:/home/caiyaohao/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-libs-javalib-testrunner-entrypoint/1.3.1/mill-libs-javalib-testrunner-entrypoint-1.3.1.jar",
+        "qref:v1:9ca2e086:/home/caiyaohao/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+    ],
+    "valueHash": -2074652100,
+    "inputsHash": 431557357,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

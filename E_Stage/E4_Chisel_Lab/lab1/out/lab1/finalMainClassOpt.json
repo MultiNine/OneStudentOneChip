@@ -1,0 +1,11 @@
+{
+    "value": [
+        1,
+        "HelloMain"
+    ],
+    "valueHash": 1076746589,
+    "inputsHash": -896612533,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

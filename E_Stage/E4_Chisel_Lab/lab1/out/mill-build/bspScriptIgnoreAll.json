@@ -1,0 +1,15 @@
+{
+    "value": [
+        "**/src/",
+        "**/src-*/",
+        "**/resources/",
+        "**/out/",
+        "**/.bsp/mill-bsp-out/",
+        "**/target/"
+    ],
+    "valueHash": -1019271634,
+    "inputsHash": -1274705086,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1859020602
+}

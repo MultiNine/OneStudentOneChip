@@ -1,0 +1,447 @@
+bsp] Trying to load BSP server...
+bsp] BSP server started
+1-buildInitialize] Entered buildInitialize
+1-buildInitialize] Got client semanticdbVersion: 4.17.4. Enabling SemanticDB support.
+1-buildInitialize] buildInitialize took 18 msec
+2-onBuildInitialized] Build initialized
+bsp-build.mill-70] compiling 1 Scala source to out/mill-build/compile.dest/classes ...
+bsp-build.mill-70] done compiling
+3-compile] Entered buildTargetCompile
+3-compile] buildTargetCompile took 5 msec
+4-compile] Entered buildTargetCompile
+4-compile] buildTargetCompile took 53 msec
+5-compile] Entered buildTargetCompile
+5-compile] buildTargetCompile took 32 msec
+6-compile] Entered buildTargetCompile
+7-jvmCompileClasspath] Entered buildTargetJvmCompileClasspath
+7-jvmCompileClasspath] Evaluating 1 task
+6-compile] Evaluating 1 task
+7-jvmCompileClasspath] Done
+7-jvmCompileClasspath] buildTargetJvmCompileClasspath took 147 msec
+6-compile-70] compiling 1 Scala source to out/mill-build/semanticDbDataDetailed.dest/classes ...
+6-compile-70] done compiling
+6-compile-70] [error] semanticDbDataDetailed task failed
+6-compile] [warn] semanticDbDataDetailed
+6-compile] Failed
+6-compile] buildTargetCompile took 5486 msec
+9-scalaTestClasses] Entered buildTargetScalaTestClasses
+8-scalaMainClasses] Entered buildTargetScalaMainClasses
+9-scalaTestClasses] buildTargetScalaTestClasses took 100 msec
+8-scalaMainClasses] Evaluating 1 task
+8-scalaMainClasses] Done
+8-scalaMainClasses] buildTargetScalaMainClasses took 925 msec
+10-jvmRunEnvironmentFor] Entered buildTargetJvmRunEnvironment
+11-jvmRunEnvironmentFor] Entered buildTargetJvmRunEnvironment
+11-jvmRunEnvironmentFor] Evaluating 1 task
+10-jvmRunEnvironmentFor] Evaluating 1 task
+12-jvmRunEnvironmentFor] Entered buildTargetJvmRunEnvironment
+11-jvmRunEnvironmentFor] Done
+11-jvmRunEnvironmentFor] buildTargetJvmRunEnvironment took 214 msec
+12-jvmRunEnvironmentFor] Evaluating 1 task
+10-jvmRunEnvironmentFor] Done
+10-jvmRunEnvironmentFor] buildTargetJvmRunEnvironment took 385 msec
+12-jvmRunEnvironmentFor] Done
+12-jvmRunEnvironmentFor] buildTargetJvmRunEnvironment took 225 msec
+13-jvmRunEnvironmentFor] Entered buildTargetJvmRunEnvironment
+13-jvmRunEnvironmentFor] Evaluating 1 task
+13-jvmRunEnvironmentFor] Done
+13-jvmRunEnvironmentFor] buildTargetJvmRunEnvironment took 176 msec
+14-compile] Entered buildTargetCompile
+14-compile] buildTargetCompile took 74 msec
+15-compile] Entered buildTargetCompile
+15-compile] buildTargetCompile took 53 msec
+16-compile] Entered buildTargetCompile
+16-compile] buildTargetCompile took 32 msec
+17-jvmCompileClasspath] Entered buildTargetJvmCompileClasspath
+18-compile] Entered buildTargetCompile
+17-jvmCompileClasspath] Evaluating 1 task
+18-compile] Evaluating 1 task
+17-jvmCompileClasspath] Done
+17-jvmCompileClasspath] buildTargetJvmCompileClasspath took 104 msec
+18-compile-64] compiling 1 Scala source to out/lab1/semanticDbDataDetailed.dest/classes ...
+18-compile-64] done compiling
+18-compile] Done
+18-compile] buildTargetCompile took 9124 msec
+19-scalaMainClasses] Entered buildTargetScalaMainClasses
+20-scalaTestClasses] Entered buildTargetScalaTestClasses
+20-scalaTestClasses] buildTargetScalaTestClasses took 51 msec
+19-scalaMainClasses] Evaluating 1 task
+21-compile] Entered buildTargetCompile
+21-compile] buildTargetCompile took 42 msec
+19-scalaMainClasses] Done
+19-scalaMainClasses] buildTargetScalaMainClasses took 518 msec
+22-jvmRunEnvironmentFor] Entered buildTargetJvmRunEnvironment
+22-jvmRunEnvironmentFor] Evaluating 1 task
+22-jvmRunEnvironmentFor] Done
+22-jvmRunEnvironmentFor] buildTargetJvmRunEnvironment took 96 msec
+23-compile] Entered buildTargetCompile
+23-compile] buildTargetCompile took 30 msec
+24-compile] Entered buildTargetCompile
+24-compile] buildTargetCompile took 25 msec
+25-compile] Entered buildTargetCompile
+25-compile] buildTargetCompile took 29 msec
+26-compile] Entered buildTargetCompile
+26-compile] buildTargetCompile took 29 msec
+27-compile] Entered buildTargetCompile
+27-compile] Evaluating 1 task
+27-compile-64] compiling 1 Scala source to out/lab1/semanticDbDataDetailed.dest/classes ...
+27-compile-64] done compiling
+27-compile] Done
+27-compile] buildTargetCompile took 2069 msec
+28-scalaMainClasses] Entered buildTargetScalaMainClasses
+29-scalaTestClasses] Entered buildTargetScalaTestClasses
+29-scalaTestClasses] buildTargetScalaTestClasses took 31 msec
+28-scalaMainClasses] Evaluating 1 task
+28-scalaMainClasses-68] compiling 1 Scala source to out/lab1/compile.dest/classes ...
+28-scalaMainClasses-68] done compiling
+28-scalaMainClasses] Done
+28-scalaMainClasses] buildTargetScalaMainClasses took 1126 msec
+31-compile] Entered buildTargetCompile
+30-jvmCompileClasspath] Entered buildTargetJvmCompileClasspath
+30-jvmCompileClasspath] Evaluating 1 task
+31-compile] Evaluating 1 task
+31-compile-096] blocked on read lock 'lab1.test.transitiveCoursierProjects' PID 86692 'BSP:buildTargetJvmCompileClasspath'
+31-compile-119] blocked on read lock 'lab1.test.resolvedMvnDeps.super.javalib.JavaModule' PID 86692 'BSP:buildTargetJvmCompileClasspath'
+30-jvmCompileClasspath] Done
+30-jvmCompileClasspath] buildTargetJvmCompileClasspath took 316 msec
+31-compile-121] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+31-compile-121] done compiling
+31-compile] Done
+31-compile] buildTargetCompile took 716 msec
+33-scalaTestClasses] Entered buildTargetScalaTestClasses
+32-scalaMainClasses] Entered buildTargetScalaMainClasses
+33-scalaTestClasses] Evaluating 1 task
+32-scalaMainClasses] Evaluating 1 task
+33-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+32-scalaMainClasses-122] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaTestClasses'
+33-scalaTestClasses-118] done compiling
+34-jvmRunEnvironmentFor] Entered buildTargetJvmRunEnvironment
+32-scalaMainClasses] Done
+32-scalaMainClasses] buildTargetScalaMainClasses took 384 msec
+34-jvmRunEnvironmentFor] Evaluating 1 task
+34-jvmRunEnvironmentFor] Done
+34-jvmRunEnvironmentFor] buildTargetJvmRunEnvironment took 83 msec
+33-scalaTestClasses] Done
+33-scalaTestClasses] buildTargetScalaTestClasses took 479 msec
+35-compile] Entered buildTargetCompile
+35-compile] buildTargetCompile took 17 msec
+36-compile] Entered buildTargetCompile
+36-compile] Evaluating 1 task
+36-compile-121] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+36-compile-121] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+36-compile-121] Please try specifying another one using the -encoding option
+36-compile-121] [error] one error found
+36-compile-121] [error] lab1.test.semanticDbDataDetailed task failed
+36-compile] Done
+36-compile] buildTargetCompile took 385 msec
+38-scalaMainClasses] Entered buildTargetScalaMainClasses
+37-scalaTestClasses] Entered buildTargetScalaTestClasses
+38-scalaMainClasses] Evaluating 1 task
+37-scalaTestClasses] Evaluating 1 task
+38-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+37-scalaTestClasses-118] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaMainClasses'
+38-scalaMainClasses-122] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+38-scalaMainClasses-122] Please try specifying another one using the -encoding option
+38-scalaMainClasses-122] [error] one error found
+38-scalaMainClasses-122] [error] lab1.test.compile task failed
+38-scalaMainClasses] [warn] lab1.test.compile Compilation failed
+38-scalaMainClasses] Failed
+38-scalaMainClasses] buildTargetScalaMainClasses took 179 msec
+37-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+37-scalaTestClasses-118] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+37-scalaTestClasses-118] Please try specifying another one using the -encoding option
+37-scalaTestClasses-118] [error] one error found
+37-scalaTestClasses-118] [error] lab1.test.compile task failed
+37-scalaTestClasses] [warn] lab1.test.compile Compilation failed
+37-scalaTestClasses] Failed
+37-scalaTestClasses] buildTargetScalaTestClasses took 231 msec
+39-compile] Entered buildTargetCompile
+39-compile] buildTargetCompile took 22 msec
+40-compile] Entered buildTargetCompile
+40-compile] buildTargetCompile took 46 msec
+41-compile] Entered buildTargetCompile
+41-compile] buildTargetCompile took 55 msec
+42-compile] Entered buildTargetCompile
+42-compile] buildTargetCompile took 34 msec
+43-compile] Entered buildTargetCompile
+43-compile] Evaluating 1 task
+43-compile-120] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+43-compile-120] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+43-compile-120] Please try specifying another one using the -encoding option
+43-compile-120] [error] one error found
+43-compile-120] [error] lab1.test.semanticDbDataDetailed task failed
+43-compile] Done
+43-compile] buildTargetCompile took 311 msec
+45-scalaTestClasses] Entered buildTargetScalaTestClasses
+44-scalaMainClasses] Entered buildTargetScalaMainClasses
+44-scalaMainClasses] Evaluating 1 task
+45-scalaTestClasses] Evaluating 1 task
+45-scalaTestClasses-118] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaMainClasses'
+44-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+44-scalaMainClasses-122] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+44-scalaMainClasses-122] Please try specifying another one using the -encoding option
+44-scalaMainClasses-122] [error] one error found
+44-scalaMainClasses-122] [error] lab1.test.compile task failed
+45-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+44-scalaMainClasses] [warn] lab1.test.compile Compilation failed
+44-scalaMainClasses] Failed
+44-scalaMainClasses] buildTargetScalaMainClasses took 156 msec
+45-scalaTestClasses-118] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+45-scalaTestClasses-118] Please try specifying another one using the -encoding option
+45-scalaTestClasses-118] [error] one error found
+45-scalaTestClasses-118] [error] lab1.test.compile task failed
+45-scalaTestClasses] [warn] lab1.test.compile Compilation failed
+45-scalaTestClasses] Failed
+45-scalaTestClasses] buildTargetScalaTestClasses took 212 msec
+46-compile] Entered buildTargetCompile
+46-compile] buildTargetCompile took 21 msec
+47-compile] Entered buildTargetCompile
+47-compile] Evaluating 1 task
+47-compile-121] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+47-compile-121] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+47-compile-121] Please try specifying another one using the -encoding option
+47-compile-121] [error] one error found
+47-compile-121] [error] lab1.test.semanticDbDataDetailed task failed
+47-compile] Done
+47-compile] buildTargetCompile took 230 msec
+48-scalaTestClasses] Entered buildTargetScalaTestClasses
+49-scalaMainClasses] Entered buildTargetScalaMainClasses
+49-scalaMainClasses] Evaluating 1 task
+48-scalaTestClasses] Evaluating 1 task
+48-scalaTestClasses-118] blocked on write lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaMainClasses'
+49-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+49-scalaMainClasses-122] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+49-scalaMainClasses-122] Please try specifying another one using the -encoding option
+49-scalaMainClasses-122] [error] one error found
+49-scalaMainClasses-122] [error] lab1.test.compile task failed
+49-scalaMainClasses] [warn] lab1.test.compile Compilation failed
+49-scalaMainClasses] Failed
+49-scalaMainClasses] buildTargetScalaMainClasses took 164 msec
+48-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+48-scalaTestClasses-118] [error] IO error while decoding /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/scala/HelloSpec.scala with UTF-8: MALFORMED[1]
+48-scalaTestClasses-118] Please try specifying another one using the -encoding option
+48-scalaTestClasses-118] [error] one error found
+48-scalaTestClasses-118] [error] lab1.test.compile task failed
+48-scalaTestClasses] [warn] lab1.test.compile Compilation failed
+48-scalaTestClasses] Failed
+48-scalaTestClasses] buildTargetScalaTestClasses took 207 msec
+50-compile] Entered buildTargetCompile
+50-compile] buildTargetCompile took 30 msec
+51-compile] Entered buildTargetCompile
+51-compile] Evaluating 1 task
+51-compile-120] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+51-compile-120] [error] src/test/scala/HelloSpec.scala:1:1
+51-compile-120] ﻿import chisel3._
+51-compile-120] ^
+51-compile-120] illegal character '\ufeff'
+51-compile-120] 
+51-compile-120] [error] one error found
+51-compile-120] [error] lab1.test.semanticDbDataDetailed task failed
+51-compile] Done
+51-compile] buildTargetCompile took 255 msec
+52-scalaMainClasses] Entered buildTargetScalaMainClasses
+53-scalaTestClasses] Entered buildTargetScalaTestClasses
+52-scalaMainClasses] Evaluating 1 task
+53-scalaTestClasses] Evaluating 1 task
+53-scalaTestClasses-118] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaMainClasses'
+52-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+52-scalaMainClasses-122] [error] src/test/scala/HelloSpec.scala:1:1
+52-scalaMainClasses-122] ﻿import chisel3._
+52-scalaMainClasses-122] ^
+52-scalaMainClasses-122] illegal character '\ufeff'
+52-scalaMainClasses-122] 
+52-scalaMainClasses-122] [error] one error found
+52-scalaMainClasses-122] [error] lab1.test.compile task failed
+52-scalaMainClasses] [warn] lab1.test.compile Compilation failed
+52-scalaMainClasses] Failed
+52-scalaMainClasses] buildTargetScalaMainClasses took 204 msec
+53-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+53-scalaTestClasses-118] [error] src/test/scala/HelloSpec.scala:1:1
+53-scalaTestClasses-118] ﻿import chisel3._
+53-scalaTestClasses-118] ^
+53-scalaTestClasses-118] illegal character '\ufeff'
+53-scalaTestClasses-118] 
+53-scalaTestClasses-118] [error] one error found
+53-scalaTestClasses-118] [error] lab1.test.compile task failed
+53-scalaTestClasses] [warn] lab1.test.compile Compilation failed
+53-scalaTestClasses] Failed
+53-scalaTestClasses] buildTargetScalaTestClasses took 272 msec
+54-compile] Entered buildTargetCompile
+54-compile] Evaluating 1 task
+54-compile-121] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+54-compile-121] [error] src/test/scala/HelloSpec.scala:1:1
+54-compile-121] ﻿import chisel3._
+54-compile-121] ^
+54-compile-121] illegal character '\ufeff'
+54-compile-121] 
+54-compile-121] [error] one error found
+54-compile-121] [error] lab1.test.semanticDbDataDetailed task failed
+54-compile] Done
+54-compile] buildTargetCompile took 460 msec
+55-scalaMainClasses] Entered buildTargetScalaMainClasses
+56-scalaTestClasses] Entered buildTargetScalaTestClasses
+56-scalaTestClasses] Evaluating 1 task
+55-scalaMainClasses] Evaluating 1 task
+56-scalaTestClasses-118] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaMainClasses'
+55-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+55-scalaMainClasses-122] [error] src/test/scala/HelloSpec.scala:1:1
+55-scalaMainClasses-122] ﻿import chisel3._
+55-scalaMainClasses-122] ^
+55-scalaMainClasses-122] illegal character '\ufeff'
+55-scalaMainClasses-122] 
+55-scalaMainClasses-122] [error] one error found
+55-scalaMainClasses-122] [error] lab1.test.compile task failed
+55-scalaMainClasses] [warn] lab1.test.compile Compilation failed
+55-scalaMainClasses] Failed
+55-scalaMainClasses] buildTargetScalaMainClasses took 237 msec
+56-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+56-scalaTestClasses-118] [error] src/test/scala/HelloSpec.scala:1:1
+56-scalaTestClasses-118] ﻿import chisel3._
+56-scalaTestClasses-118] ^
+56-scalaTestClasses-118] illegal character '\ufeff'
+56-scalaTestClasses-118] 
+56-scalaTestClasses-118] [error] one error found
+56-scalaTestClasses-118] [error] lab1.test.compile task failed
+56-scalaTestClasses] [warn] lab1.test.compile Compilation failed
+56-scalaTestClasses] Failed
+56-scalaTestClasses] buildTargetScalaTestClasses took 372 msec
+57-compile] Entered buildTargetCompile
+57-compile] buildTargetCompile took 21 msec
+58-compile] Entered buildTargetCompile
+58-compile] Evaluating 1 task
+58-compile-120] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+58-compile-120] [error] src/test/scala/HelloSpec.scala:1:1
+58-compile-120] ﻿import chisel3._
+58-compile-120] ^
+58-compile-120] illegal character '\ufeff'
+58-compile-120] 
+58-compile-120] [error] one error found
+58-compile-120] [error] lab1.test.semanticDbDataDetailed task failed
+58-compile] Done
+58-compile] buildTargetCompile took 127 msec
+59-scalaMainClasses] Entered buildTargetScalaMainClasses
+60-scalaTestClasses] Entered buildTargetScalaTestClasses
+60-scalaTestClasses] Evaluating 1 task
+59-scalaMainClasses] Evaluating 1 task
+59-scalaMainClasses-122] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaTestClasses'
+60-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+60-scalaTestClasses-118] [error] src/test/scala/HelloSpec.scala:1:1
+60-scalaTestClasses-118] ﻿import chisel3._
+60-scalaTestClasses-118] ^
+60-scalaTestClasses-118] illegal character '\ufeff'
+60-scalaTestClasses-118] 
+60-scalaTestClasses-118] [error] one error found
+60-scalaTestClasses-118] [error] lab1.test.compile task failed
+60-scalaTestClasses] [warn] lab1.test.compile Compilation failed
+60-scalaTestClasses] Failed
+60-scalaTestClasses] buildTargetScalaTestClasses took 149 msec
+59-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+59-scalaMainClasses-122] [error] src/test/scala/HelloSpec.scala:1:1
+59-scalaMainClasses-122] ﻿import chisel3._
+59-scalaMainClasses-122] ^
+59-scalaMainClasses-122] illegal character '\ufeff'
+59-scalaMainClasses-122] 
+59-scalaMainClasses-122] [error] one error found
+59-scalaMainClasses-122] [error] lab1.test.compile task failed
+59-scalaMainClasses] [warn] lab1.test.compile Compilation failed
+59-scalaMainClasses] Failed
+59-scalaMainClasses] buildTargetScalaMainClasses took 194 msec
+61-compile] Entered buildTargetCompile
+61-compile] buildTargetCompile took 19 msec
+62-compile] Entered buildTargetCompile
+62-compile] Evaluating 1 task
+62-compile-121] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+62-compile-121] [error] src/test/scala/HelloSpec.scala:1:1
+62-compile-121] ﻿import  chisel3._
+62-compile-121] ^
+62-compile-121] illegal character '\ufeff'
+62-compile-121] 
+62-compile-121] [error] one error found
+62-compile-121] [error] lab1.test.semanticDbDataDetailed task failed
+62-compile] Done
+62-compile] buildTargetCompile took 106 msec
+63-scalaMainClasses] Entered buildTargetScalaMainClasses
+64-scalaTestClasses] Entered buildTargetScalaTestClasses
+63-scalaMainClasses] Evaluating 1 task
+64-scalaTestClasses] Evaluating 1 task
+64-scalaTestClasses-118] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaMainClasses'
+63-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+63-scalaMainClasses-122] [error] src/test/scala/HelloSpec.scala:1:1
+63-scalaMainClasses-122] ﻿import  chisel3._
+63-scalaMainClasses-122] ^
+63-scalaMainClasses-122] illegal character '\ufeff'
+63-scalaMainClasses-122] 
+63-scalaMainClasses-122] [error] one error found
+63-scalaMainClasses-122] [error] lab1.test.compile task failed
+63-scalaMainClasses] [warn] lab1.test.compile Compilation failed
+63-scalaMainClasses] Failed
+63-scalaMainClasses] buildTargetScalaMainClasses took 110 msec
+64-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+64-scalaTestClasses-118] [error] src/test/scala/HelloSpec.scala:1:1
+64-scalaTestClasses-118] ﻿import  chisel3._
+64-scalaTestClasses-118] ^
+64-scalaTestClasses-118] illegal character '\ufeff'
+64-scalaTestClasses-118] 
+64-scalaTestClasses-118] [error] one error found
+64-scalaTestClasses-118] [error] lab1.test.compile task failed
+64-scalaTestClasses] [warn] lab1.test.compile Compilation failed
+64-scalaTestClasses] Failed
+64-scalaTestClasses] buildTargetScalaTestClasses took 167 msec
+65-compile] Entered buildTargetCompile
+65-compile] buildTargetCompile took 24 msec
+66-compile] Entered buildTargetCompile
+66-compile] Evaluating 1 task
+66-compile-121] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+66-compile-121] done compiling
+66-compile] Done
+66-compile] buildTargetCompile took 2283 msec
+68-scalaTestClasses] Entered buildTargetScalaTestClasses
+67-scalaMainClasses] Entered buildTargetScalaMainClasses
+67-scalaMainClasses] Evaluating 1 task
+68-scalaTestClasses] Evaluating 1 task
+68-scalaTestClasses-118] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaMainClasses'
+67-scalaMainClasses-122] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+67-scalaMainClasses-122] done compiling
+67-scalaMainClasses] Done
+67-scalaMainClasses] buildTargetScalaMainClasses took 2182 msec
+68-scalaTestClasses] Done
+68-scalaTestClasses] buildTargetScalaTestClasses took 2318 msec
+69-compile] Entered buildTargetCompile
+69-compile] buildTargetCompile took 108 msec
+70-compile] Entered buildTargetCompile
+70-compile] Evaluating 1 task
+70-compile-121] compiling 1 Scala source to out/lab1/test/semanticDbDataDetailed.dest/classes ...
+70-compile-121] done compiling
+70-compile] Done
+70-compile] buildTargetCompile took 3127 msec
+72-scalaTestClasses] Entered buildTargetScalaTestClasses
+71-scalaMainClasses] Entered buildTargetScalaMainClasses
+72-scalaTestClasses] Evaluating 1 task
+71-scalaMainClasses] Evaluating 1 task
+71-scalaMainClasses-122] blocked on read lock 'lab1.test.compile' PID 86692 'BSP:buildTargetScalaTestClasses'
+72-scalaTestClasses-118] compiling 1 Scala source to out/lab1/test/compile.dest/classes ...
+73-compile] Entered buildTargetCompile
+73-compile] buildTargetCompile took 38 msec
+72-scalaTestClasses-118] done compiling
+71-scalaMainClasses] Done
+71-scalaMainClasses] buildTargetScalaMainClasses took 1568 msec
+72-scalaTestClasses] Done
+72-scalaTestClasses] buildTargetScalaTestClasses took 1948 msec
+74-compile] Entered buildTargetCompile
+74-compile] buildTargetCompile took 50 msec
+75-compile] Entered buildTargetCompile
+75-compile] buildTargetCompile took 64 msec
+76-compile] Entered buildTargetCompile
+76-compile] buildTargetCompile took 77 msec
+77-compile] Entered buildTargetCompile
+77-compile] buildTargetCompile took 25 msec
+78-compile] Entered buildTargetCompile
+78-compile] buildTargetCompile took 36 msec
+79-compile] Entered buildTargetCompile
+79-compile] buildTargetCompile took 31 msec
+80-compile] Entered buildTargetCompile
+80-compile] buildTargetCompile took 38 msec
+81-buildShutdown] Entered buildShutdown
+82-onBuildExit] Entered onBuildExit
+BSP shutdown asked by client, exiting
+Exiting BSP runner loop

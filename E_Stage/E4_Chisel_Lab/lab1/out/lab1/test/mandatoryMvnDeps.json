@@ -1,0 +1,10 @@
+{
+    "value": [
+        "org.scala-lang:scala-library:2.13.18"
+    ],
+    "valueHash": 467688716,
+    "inputsHash": -601681813,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

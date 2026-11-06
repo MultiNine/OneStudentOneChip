@@ -1,0 +1,22 @@
+{
+    "value": {
+        "seenScripts": [
+            [
+                "/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/build.mill",
+                "//| mill-version: 1.3.1\npackage build\n\nimport mill._\nimport mill.scalalib._\n\n// Note: This project requires .mill-jvm-opts file containing:\n//   -Dchisel.project.root=${PWD}\n// This is needed because Chisel needs to know the project root directory\n// to properly generate and handle test directories and output files.\n// See: https://github.com/com-lihaoyi/mill/issues/3840\n\nobject lab1 extends SbtModule {\n  def scalaVersion = \"2.13.18\"\n  def chiselVersion = \"7.7.0\"\n\n  def moduleDir = super.moduleDir / os.up\n\n  override def scalacOptions = Seq(\n    \"-language:reflectiveCalls\",\n    \"-deprecation\",\n    \"-feature\",\n    \"-Xcheckinit\",\n    \"-Ymacro-annotations\",\n  )\n  override def mvnDeps = Seq(\n    mvn\"org.chipsalliance::chisel:$chiselVersion\",\n  )\n  override def scalacPluginMvnDeps = Seq(\n    mvn\"org.chipsalliance:::chisel-plugin:$chiselVersion\",\n  )\n  object test extends SbtTests with TestModule.ScalaTest {\n    override def mvnDeps = Seq(\n      mvn\"org.scalatest::scalatest::3.2.19\"\n    )\n  }\n}"
+            ]
+        ],
+        "errors": [],
+        "seenPkgStatements": [
+            [
+                "/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/build.mill",
+                "package build"
+            ]
+        ]
+    },
+    "valueHash": -1266202293,
+    "inputsHash": 157809778,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1859020602
+}

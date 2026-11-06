@@ -1,0 +1,201 @@
+{
+  "lab1.test.testOnly": {
+    "lab1.test.testUseArgsFile": {
+      "lab1.test.runUseArgsFile": {
+        "lab1.runUseArgsFile": {}
+      }
+    },
+    "lab1.test.forkArgs": {},
+    "mill.javalib.JvmWorkerModule/scalalibClasspath": {
+      "mill.javalib.CoursierConfigModule/coursierEnv": {},
+      "mill.javalib.JvmWorkerModule/repositories": {},
+      "mill.javalib.JvmWorkerModule/checkGradleModules": {}
+    },
+    "lab1.test.resources": {},
+    "lab1.test.testFramework": {},
+    "mill.javalib.JvmWorkerModule/internalWorker": {
+      "mill.javalib.JvmWorkerModule/classpath": {},
+      "mill.javalib.JvmWorkerModule/internalWorkerClassLoader": {},
+      "mill.javalib.JvmWorkerModule/zincLogDebug": {},
+      "mill.javalib.JvmWorkerModule/useFileLocks": {}
+    },
+    "lab1.test.javaHome": {
+      "lab1.javaHome": {
+        "lab1.jvmVersion": {
+          "lab1.jvmId": {}
+        },
+        "lab1.jvmIndexVersion": {}
+      }
+    },
+    "lab1.test.runClasspath": {
+      "lab1.test.runClasspath.super.RunModule": {},
+      "lab1.test.resolvedRunMvnDeps": {
+        "lab1.test.resolvedDepsWarnNonPlatform": {},
+        "lab1.test.platformSuffix": {},
+        "lab1.test.runMvnDeps": {},
+        "lab1.scalaVersion": {},
+        "lab1.platformSuffix": {},
+        "lab1.mvnDeps": {},
+        "lab1.test.scalaVersion": {},
+        "lab1.test.mandatoryMvnDeps": {
+          "lab1.test.mandatoryMvnDeps.super.scalalib.ScalaModule": {
+            "lab1.test.mandatoryMvnDeps.super.javalib.JavaModule": {},
+            "lab1.test.scalaLibraryMvnDeps": {}
+          },
+          "lab1.test.scalaTestVersion": {},
+          "lab1.test.scalaTestStyles": {}
+        },
+        "lab1.test.mvnDeps": {},
+        "lab1.test.compileMvnDeps": {},
+        "lab1.test.allBomMvnDeps": {
+          "lab1.test.bomMvnDeps": {
+            "lab1.test.bomMvnDeps.super.JavaModule": {},
+            "lab1.bomMvnDeps": {}
+          },
+          "lab1.test.mandatoryBomMvnDeps": {
+            "lab1.mandatoryBomMvnDeps": {}
+          }
+        },
+        "lab1.test.depManagement": {
+          "lab1.test.depManagement.super.JavaModule": {},
+          "lab1.depManagement": {}
+        },
+        "lab1.test.transitiveCoursierProjects": {
+          "lab1.transitiveCoursierProjects": {},
+          "lab1.mandatoryMvnDeps": {
+            "lab1.mandatoryMvnDeps.super.javalib.JavaModule": {},
+            "lab1.scalaLibraryMvnDeps": {}
+          },
+          "lab1.compileMvnDeps": {},
+          "lab1.runMvnDeps": {},
+          "lab1.allBomMvnDeps": {}
+        },
+        "lab1.repositories": {},
+        "lab1.test.checkGradleModules": {},
+        "lab1.test.artifactTypes": {}
+      },
+      "lab1.test.transitiveLocalClasspath": {
+        "lab1.localClasspath": {
+          "lab1.localCompileClasspath": {
+            "lab1.unmanagedClasspath": {},
+            "lab1.unmanagedClasspathExistenceCheck": {},
+            "lab1.compileResources": {}
+          },
+          "lab1.localRunClasspath": {
+            "lab1.localRunClasspath.super.RunModule": {},
+            "lab1.resources": {},
+            "lab1.compile": {
+              "lab1.mandatoryJavacOptions": {},
+              "lab1.upstreamCompileOutput": {},
+              "lab1.allSourceFiles": {
+                "lab1.allSources": {
+                  "lab1.sources": {},
+                  "lab1.generatedSources": {}
+                },
+                "lab1.wrappedSources": {}
+              },
+              "lab1.compileClasspath": {
+                "lab1.resolvedMvnDeps": {
+                  "lab1.resolvedMvnDeps.super.javalib.JavaModule": {
+                    "lab1.resolvedDepsWarnNonPlatform": {},
+                    "lab1.artifactTypes": {}
+                  }
+                }
+              },
+              "lab1.allScalacOptions": {
+                "lab1.mandatoryScalacOptions": {},
+                "lab1.enablePluginScalacOptions": {}
+              },
+              "lab1.scalaCompilerClasspath": {},
+              "lab1.zincIncrementalCompilation": {},
+              "lab1.zincAuxiliaryClassFileExtensions": {
+                "lab1.zincAuxiliaryClassFileExtensions.super.javalib.JavaModule": {}
+              },
+              "lab1.zincReportCachedProblems": {}
+            }
+          }
+        }
+      },
+      "lab1.test.localClasspath": {
+        "lab1.test.localCompileClasspath": {
+          "lab1.test.unmanagedClasspath": {},
+          "lab1.test.unmanagedClasspathExistenceCheck": {},
+          "lab1.test.compileResources": {}
+        }
+      }
+    },
+    "lab1.test.testClasspath": {
+      "lab1.test.localRunClasspath": {
+        "lab1.test.localRunClasspath.super.RunModule": {},
+        "lab1.test.compile": {
+          "lab1.test.javacOptions": {
+            "lab1.javacOptions": {}
+          },
+          "lab1.test.mandatoryJavacOptions": {},
+          "lab1.test.upstreamCompileOutput": {},
+          "lab1.test.allSourceFiles": {
+            "lab1.test.allSources": {
+              "lab1.test.sources": {},
+              "lab1.test.generatedSources": {}
+            },
+            "lab1.test.wrappedSources": {}
+          },
+          "lab1.test.compileClasspath": {
+            "lab1.test.resolvedMvnDeps": {
+              "lab1.test.resolvedMvnDeps.super.javalib.JavaModule": {}
+            }
+          },
+          "lab1.test.allScalacOptions": {
+            "lab1.test.mandatoryScalacOptions": {
+              "lab1.test.mandatoryScalacOptions.super.ScalaModule": {}
+            },
+            "lab1.test.enablePluginScalacOptions": {
+              "lab1.test.scalacPluginMvnDeps": {}
+            },
+            "lab1.test.scalacOptions": {
+              "lab1.scalacOptions": {}
+            }
+          },
+          "lab1.test.scalaCompilerClasspath": {},
+          "lab1.test.scalacPluginClasspath": {
+            "lab1.scalacPluginClasspath": {
+              "lab1.checkGradleModules": {},
+              "lab1.scalacPluginMvnDeps": {}
+            }
+          },
+          "lab1.test.scalaCompilerBridge": {
+            "lab1.scalaCompilerBridge": {}
+          },
+          "lab1.test.zincIncrementalCompilation": {},
+          "lab1.test.zincAuxiliaryClassFileExtensions": {
+            "lab1.test.zincAuxiliaryClassFileExtensions.super.javalib.JavaModule": {}
+          },
+          "lab1.test.zincReportCachedProblems": {}
+        }
+      }
+    },
+    "lab1.test.testArgsDefault": {},
+    "lab1.test.testForkGrouping": {
+      "lab1.test.discoveredTestClasses": {
+        "lab1.test.testDiscoverRuntimeOptions": {}
+      }
+    },
+    "mill.javalib.JvmWorkerModule/testrunnerEntrypointClasspath": {},
+    "lab1.test.allForkEnv": {
+      "lab1.test.allForkEnv.super.RunModule": {
+        "lab1.test.javaHomePathForkEnv": {
+          "lab1.test.javaHomeFromCurrentRuntime": {},
+          "lab1.test.envPath": {}
+        },
+        "lab1.test.forkEnv": {}
+      }
+    },
+    "lab1.test.testSandboxWorkingDir": {},
+    "lab1.test.forkWorkingDir": {},
+    "lab1.test.testReportXml": {},
+    "lab1.test.testParallelism": {},
+    "lab1.test.testLogLevel": {},
+    "lab1.test.propagateEnv": {},
+    "lab1.test.testBatchFrameworkTasks": {}
+  }
+}

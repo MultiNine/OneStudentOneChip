@@ -1,0 +1,11 @@
+{
+    "value": [
+        "ref:v0:c984eca8:/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/src/test/resources",
+        "ref:v0:7a7316be:/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/lab1/test/compile.dest/classes"
+    ],
+    "valueHash": -717122227,
+    "inputsHash": -966271612,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

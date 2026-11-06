@@ -1,0 +1,278 @@
+2026-10-31T13:00:16Z runWithConnection exit code: 1
+2026-10-31T13:00:19Z launchOrConnectToServer: mill.client.lock.Locks@74589991
+2026-10-31T13:00:19Z Acquiring the launcher lock: PidLock{@1458ed9c, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:00:19Z launchOrConnectToServer attempt
+2026-10-31T13:00:19Z Checking if the daemon lock is available: PidLock{@3899782c, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:00:19Z The daemon lock is available, starting the server.
+2026-10-31T13:00:19Z The server has started: OsProcess(86789)
+2026-10-31T13:00:19Z Waiting for the server to take the daemon lock: PidLock{@3899782c, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:00:19Z The server OsProcess(86789) has taken the daemon lock: PidLock{@3899782c, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:00:19Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:00:19Z launchOrConnectToServer attempt
+2026-10-31T13:00:19Z Checking if the daemon lock is available: PidLock{@3899782c, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID exception
+2026-10-31T13:00:19Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:00:19Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:00:19Z Read PID: 86789
+2026-10-31T13:00:19Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:00:19Z Read server port
+2026-10-31T13:00:19Z Connecting: 37859
+2026-10-31T13:00:19Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=39340]),OsProcess(86789))
+2026-10-31T13:07:03Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:07:03Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:07:03Z launchOrConnectToServer attempt
+2026-10-31T13:07:03Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:07:03Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:07:03Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:07:03Z Read PID: 86789
+2026-10-31T13:07:03Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:07:03Z Read server port
+2026-10-31T13:07:03Z Connecting: 37859
+2026-10-31T13:07:03Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=36594]),OsProcess(86789))
+2026-10-31T13:07:20Z runWithConnection exit code: 0
+2026-10-31T13:09:11Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:09:11Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:09:11Z launchOrConnectToServer attempt
+2026-10-31T13:09:11Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:09:11Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:09:11Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:09:11Z Read PID: 86789
+2026-10-31T13:09:11Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:09:11Z Read server port
+2026-10-31T13:09:11Z Connecting: 37859
+2026-10-31T13:09:11Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=39972]),OsProcess(86789))
+2026-10-31T13:09:13Z runWithConnection exit code: 0
+2026-10-31T13:18:35Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:18:35Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:18:35Z launchOrConnectToServer attempt
+2026-10-31T13:18:35Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:18:35Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:18:35Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:18:35Z Read PID: 86789
+2026-10-31T13:18:35Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:18:35Z Read server port
+2026-10-31T13:18:35Z Connecting: 37859
+2026-10-31T13:18:35Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=36712]),OsProcess(86789))
+2026-10-31T13:18:35Z runWithConnection exit code: 1
+2026-10-31T13:20:13Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:20:13Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:20:13Z launchOrConnectToServer attempt
+2026-10-31T13:20:13Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:20:13Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:20:13Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:20:13Z Read PID: 86789
+2026-10-31T13:20:13Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:20:13Z Read server port
+2026-10-31T13:20:13Z Connecting: 37859
+2026-10-31T13:20:13Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=40486]),OsProcess(86789))
+2026-10-31T13:20:13Z runWithConnection exit code: 1
+2026-10-31T13:21:54Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:21:54Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:21:54Z launchOrConnectToServer attempt
+2026-10-31T13:21:54Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:21:54Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:21:54Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:21:54Z Read PID: 86789
+2026-10-31T13:21:54Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:21:54Z Read server port
+2026-10-31T13:21:54Z Connecting: 37859
+2026-10-31T13:21:54Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=40360]),OsProcess(86789))
+2026-10-31T13:21:54Z runWithConnection exit code: 0
+2026-10-31T13:22:03Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:22:03Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:22:03Z launchOrConnectToServer attempt
+2026-10-31T13:22:03Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:22:03Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:22:03Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:22:03Z Read PID: 86789
+2026-10-31T13:22:03Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:22:03Z Read server port
+2026-10-31T13:22:03Z Connecting: 37859
+2026-10-31T13:22:03Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=36724]),OsProcess(86789))
+2026-10-31T13:22:15Z runWithConnection exit code: 0
+2026-10-31T13:24:01Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:24:01Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:24:01Z launchOrConnectToServer attempt
+2026-10-31T13:24:01Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:24:01Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:24:01Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:24:01Z Read PID: 86789
+2026-10-31T13:24:01Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:24:01Z Read server port
+2026-10-31T13:24:01Z Connecting: 37859
+2026-10-31T13:24:01Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=38174]),OsProcess(86789))
+2026-10-31T13:24:02Z runWithConnection exit code: 1
+2026-10-31T13:24:16Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:24:16Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:24:16Z launchOrConnectToServer attempt
+2026-10-31T13:24:16Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:24:16Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:24:16Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:24:16Z Read PID: 86789
+2026-10-31T13:24:16Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:24:16Z Read server port
+2026-10-31T13:24:16Z Connecting: 37859
+2026-10-31T13:24:16Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=38844]),OsProcess(86789))
+2026-10-31T13:24:16Z runWithConnection exit code: 0
+2026-10-31T13:26:30Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:26:30Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:26:30Z launchOrConnectToServer attempt
+2026-10-31T13:26:30Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:26:30Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:26:30Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:26:30Z Read PID: 86789
+2026-10-31T13:26:30Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:26:30Z Read server port
+2026-10-31T13:26:30Z Connecting: 37859
+2026-10-31T13:26:30Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=37530]),OsProcess(86789))
+2026-10-31T13:26:34Z runWithConnection exit code: 0
+2026-10-31T13:28:24Z launchOrConnectToServer: mill.client.lock.Locks@32ee6fee
+2026-10-31T13:28:24Z Acquiring the launcher lock: PidLock{@4dbb42b7, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-10-31T13:28:24Z launchOrConnectToServer attempt
+2026-10-31T13:28:24Z Checking if the daemon lock is available: PidLock{@5d534f5d, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-10-31T13:28:24Z The daemon lock is not available, there is already a server running.
+2026-10-31T13:28:24Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-10-31T13:28:24Z Read PID: 86789
+2026-10-31T13:28:24Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-10-31T13:28:24Z Read server port
+2026-10-31T13:28:24Z Connecting: 37859
+2026-10-31T13:28:24Z runWithConnection (RPC): Launched(37859,Some(Socket[addr=localhost/127.0.0.1,port=37859,localport=37924]),OsProcess(86789))
+2026-10-31T13:28:29Z runWithConnection exit code: 0
+2026-11-01T05:19:16Z launchOrConnectToServer: mill.client.lock.Locks@2f217633
+2026-11-01T05:19:16Z Acquiring the launcher lock: PidLock{@47d9a273, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/launcherLock'}
+2026-11-01T05:19:16Z launchOrConnectToServer attempt
+2026-11-01T05:19:16Z Checking if the daemon lock is available: PidLock{@f09733f, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-11-01T05:19:16Z The daemon lock is available, starting the server.
+2026-11-01T05:19:16Z The server has started: OsProcess(1159)
+2026-11-01T05:19:16Z Waiting for the server to take the daemon lock: PidLock{@f09733f, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-11-01T05:19:18Z The server OsProcess(1159) has taken the daemon lock: PidLock{@f09733f, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-11-01T05:19:18Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-11-01T05:19:18Z Read server port
+2026-11-01T05:19:18Z Connecting: 37859
+2026-11-01T05:19:18Z launchOrConnectToServer attempt
+2026-11-01T05:19:18Z Checking if the daemon lock is available: PidLock{@f09733f, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 86789
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 1159
+2026-11-01T05:19:18Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-11-01T05:19:18Z Read server port
+2026-11-01T05:19:18Z Connecting: 37859
+2026-11-01T05:19:18Z launchOrConnectToServer attempt
+2026-11-01T05:19:18Z Checking if the daemon lock is available: PidLock{@f09733f, path='/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/daemonLock'}
+2026-11-01T05:19:18Z The daemon lock is not available, there is already a server running.
+2026-11-01T05:19:18Z Trying to read the process ID of a running daemon from /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon/processId
+2026-11-01T05:19:18Z Read PID: 1159
+2026-11-01T05:19:18Z Reading server port: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/mill-daemon
+2026-11-01T05:19:18Z Read server port
+2026-11-01T05:19:18Z Connecting: 37459
+2026-11-01T05:19:18Z runWithConnection (RPC): Launched(37459,Some(Socket[addr=localhost/127.0.0.1,port=37459,localport=37882]),OsProcess(1159))

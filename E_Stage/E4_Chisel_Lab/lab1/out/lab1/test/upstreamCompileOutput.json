@@ -1,0 +1,13 @@
+{
+    "value": [
+        {
+            "analysisFile": "/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/lab1/compile.dest/zinc",
+            "classes": "ref:v0:5d10252c:/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/lab1/compile.dest/classes"
+        }
+    ],
+    "valueHash": 752109044,
+    "inputsHash": 314831879,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

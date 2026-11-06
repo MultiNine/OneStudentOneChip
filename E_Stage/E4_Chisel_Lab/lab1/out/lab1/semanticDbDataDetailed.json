@@ -1,0 +1,14 @@
+{
+    "value": {
+        "compilationResult": {
+            "analysisFile": "/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/lab1/semanticDbDataDetailed.dest/zinc",
+            "classes": "ref:v0:b77923e6:/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/lab1/semanticDbDataDetailed.dest/classes"
+        },
+        "semanticDbFiles": "ref:v0:b77923e6:/home/caiyaohao/OneStudentOneChip/E_Stage/E4_Chisel_Lab/lab1/out/lab1/semanticDbDataDetailed.dest/data"
+    },
+    "valueHash": 1934028662,
+    "inputsHash": -1466129015,
+    "millVersion": "1.3.1",
+    "millJvmVersion": "25.0.3",
+    "classLoaderSigHash": -1558575084
+}

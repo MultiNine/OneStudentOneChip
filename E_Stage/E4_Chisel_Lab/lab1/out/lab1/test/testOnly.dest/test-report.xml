@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests="1" failures="0" errors="0" skipped="0" time="3.46">
+        <testsuite name="HelloSpec" tests="1" failures="0" errors="0" skipped="0" time="3.46" timestamp="2026-10-31T13:28:29">
+        <properties>
+        
+      </properties>
+        <testcase classname="HelloSpec" name="Hello should blink" time="3.46">
+          
+        </testcase>
+      </testsuite>
+      </testsuites>
