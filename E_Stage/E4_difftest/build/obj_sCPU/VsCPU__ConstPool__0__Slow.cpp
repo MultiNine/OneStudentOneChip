@@ -1,0 +1,23 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Constant pool
+
+#include "VsCPU__pch.h"
+
+extern VL_CONSTINIT_CXX20 const ::VlUnpacked<::CData/*7:0*/, 16> VsCPU__ConstPool__CONSARRAY_1{{
+    0U, 0U, 0U, 0U, 1U, 4U, 0x10U, 0x40U,
+    2U, 8U, 0x20U, 0x80U, 3U, 0x0cU, 0x30U, 0xc0U
+}};
+
+extern VL_CONSTINIT_CXX20 const ::VlWide<16>/*511:0*/ VsCPU__ConstPool__CONST_0{{
+    0x00000003, 0x0000009f, 0x00000025, 0x0000000d,
+    0x00000099, 0x00000049, 0x00000041, 0x0000001f,
+    0x00000001, 0x00000009, 0x00000011, 0x000000c1,
+    0x00000063, 0x00000085, 0x00000061, 0x00000071
+}};
+
+extern VL_CONSTINIT_CXX20 const ::VlWide<16>/*511:0*/ VsCPU__ConstPool__CONST_1{{
+    0x00000086, 0x00000092, 0x00000001, 0x00000090,
+    0x000000a0, 0x000000b1, 0x00000017, 0x00000029,
+    0x000000f9, 0x000000c3, 0x00000000, 0x00000000,
+    0x00000000, 0x00000000, 0x00000000, 0x00000000
+}};
