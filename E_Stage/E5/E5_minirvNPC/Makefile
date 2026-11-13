@@ -30,7 +30,6 @@ lint: $(VSRCS)
 	    --top-module $(TOPNAME) $(VSRCS)
 
 sim:$(BIN)
-	$(call git_commit, "sim RTL") # DO NOT REMOVE THIS LINE!!!
 	@$(BIN)
 
 include ../Makefile

@@ -1,18 +1,31 @@
 #include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-uint32_t pmem[16] = {
-    0x03c00513, 0x00052583, 0x09000613, 0x00c501a3,
-    0x0ab00613, 0x00c50123, 0x0cd00613, 0x00c500a3,
-    0x0ef00613, 0x00c50023, 0x00052683, 0x00100073,
-    0x00000000, 0x00000000, 0x00000000, 0x12345678 
-};
+#define PMEM_BASE 0x80000000u
+#define PMEM_SIZE (128 * 1024 * 1024)
+
+uint32_t pmem[PMEM_SIZE / 4] = {0};
 
 extern "C" int pmem_read(int raddr) {
-    return pmem[(raddr & ~0x3u) >> 2];
+    int raddr_offset = raddr - PMEM_BASE;
+
+    if (raddr_offset < 0 || raddr_offset >= PMEM_SIZE) {
+        fprintf(stderr, "[PMEM READ ERROR] addr = 0x%08x\n", raddr);
+        abort();
+    }
+
+    return pmem[(raddr_offset & ~0x3u) >> 2];
 };
 
 extern "C" void pmem_write(int waddr, int wdata, char wmask) {
-    int index    = (waddr & ~0x3u) >> 2;
+    if (waddr == 0x10000000) {  // Ð´ÈëUART
+        fputc(wdata & 0xff, stderr);  
+        return;
+    }
+    
+    int waddr_offset = waddr - PMEM_BASE;
+    int index    = (waddr_offset & ~0x3u) >> 2;
     int old_data = pmem[index];
     int byte_mask = 0x0u;
     
@@ -21,7 +34,8 @@ extern "C" void pmem_write(int waddr, int wdata, char wmask) {
             byte_mask |= (0xffu << (i * 8));
         }
     }
-    
+
     wdata = (old_data & ~byte_mask) | (wdata & byte_mask);
+    
     pmem[index] = wdata;
 };

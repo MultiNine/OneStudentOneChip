@@ -39,7 +39,7 @@ module IDU #(INSTR_WIDTH = 32,
     assign rs2 = instr[23:20];
     assign wen = is_addi | is_jalr | is_add | is_lui | is_lw | is_lbu;
 
-    wire [11:0] imm_I = instr[31:20];;
+    wire [11:0] imm_I = instr[31:20];
     wire [11:0] imm_S = {instr[31:25], instr[11:7]};
     wire [19:0] imm_U = instr[31:12];
     assign immOut_I = {{20{imm_I[11]}}, imm_I};

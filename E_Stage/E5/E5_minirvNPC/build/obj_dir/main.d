@@ -7,4 +7,5 @@ main.o: ../../csrc/main.cpp Vtop.h \
  /usr/local/share/verilator/include/vltstd/svdpi.h \
  /usr/local/share/verilator/include/verilated_fst_c.h \
  /usr/local/share/verilator/include/verilated.h \
- /usr/local/share/verilator/include/verilated_trace.h Vtop__Dpi.h
+ /usr/local/share/verilator/include/verilated_trace.h Vtop__Dpi.h \
+ ../../csrc/minirvEMU.h Vtop___024root.h ../../csrc/difftest.h

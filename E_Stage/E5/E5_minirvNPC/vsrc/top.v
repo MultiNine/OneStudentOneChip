@@ -3,10 +3,12 @@ module top #(PC_WIDTH = 32,
              ADDR_WIDTH = 4,
              DATA_WIDTH = 32) (
     input                      clk,
+    input                      rst,
     output [PC_WIDTH    - 1:0] PC,
-    output [INSTR_WIDTH - 1:0] instr    // ”√¿¥π€≤Ï
+    output [INSTR_WIDTH - 1:0] instr    // Áî®Êù•ËßÇÂØü
 );
-    import "DPI-C" function void NPC_ebreak();
+    import "DPI-C" function void NPC_ebreak(input int a0);
+    wire [DATA_WIDTH - 1:0] a0;
 
     wire [PC_WIDTH - 1:0] PCin;
     wire [PC_WIDTH - 1:0] PCout;
@@ -34,7 +36,7 @@ module top #(PC_WIDTH = 32,
 
     always @(posedge clk) begin
         if (is_ebreak) begin
-            NPC_ebreak();
+            NPC_ebreak(a0);
         end
     end
 
@@ -43,6 +45,7 @@ module top #(PC_WIDTH = 32,
         .INSTR_WIDTH(INSTR_WIDTH)
     ) u_IFU (
         .clk(clk),
+        .rst(rst),
         .PCin(PCin),
         .PCout(PCout),
         .instr(instr)
@@ -82,7 +85,8 @@ module top #(PC_WIDTH = 32,
         .raddr1(raddr1),
         .raddr2(raddr2),
         .rdata1(rdata1),
-        .rdata2(rdata2)
+        .rdata2(rdata2),
+        .a0(a0)
     );
 
     EXU #(.DATA_WIDTH(DATA_WIDTH)) u_EXU (

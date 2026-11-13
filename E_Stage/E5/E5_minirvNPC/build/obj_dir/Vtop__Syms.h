@@ -37,9 +37,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vtop__Syms final : public VerilatedSyms {
         } vlInst;
     };
 
-    // SCOPE NAMES
-    ::VerilatedScope* __Vscopep_top__u_RegisterFile;
-
     // CONSTRUCTORS
     Vtop__Syms(VerilatedContext* contextp, Vtop* modelp, const char* namep, bool isRoot);
     ~Vtop__Syms();

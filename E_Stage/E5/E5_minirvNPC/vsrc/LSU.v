@@ -12,7 +12,7 @@ module LSU #(DATA_WIDTH = 32) (
     import "DPI-C" function void pmem_write(
         input int waddr, input int wdata, input byte wmask);
 
-    wire                    ren, wen, valid;
+    wire                    ren, wen;
     reg  [             7:0] wmask;
     wire [DATA_WIDTH - 1:0] waddr = memAddr;
     wire [DATA_WIDTH - 1:0] wdata = is_sw ? rdata2 : (rdata2 << {memAddr[1:0], 3'b000});
@@ -21,17 +21,18 @@ module LSU #(DATA_WIDTH = 32) (
     
     assign ren = is_lw | is_lbu;
     assign wen = is_sw | is_sb;
-    assign valid = ren | wen;
 
+    
     always @(*) begin
-        if (valid) begin 
+        if (ren) begin
             rdata = pmem_read(raddr);
-            if (wen) begin
-                pmem_write(waddr, wdata, wmask);
-            end
         end
         else begin
-          rdata = 0;
+            rdata = 32'b0;
+        end
+
+        if (wen) begin
+            pmem_write(waddr, wdata, wmask);
         end
     end
 

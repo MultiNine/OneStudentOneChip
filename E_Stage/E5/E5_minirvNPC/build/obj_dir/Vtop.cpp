@@ -15,6 +15,7 @@ Vtop::Vtop(VerilatedContext* _vcontextp__, const char* _vcname__, bool _vcisRoot
     , vlSymsp{new Vtop__Syms(contextp(), this, _vcname__, _vcisRoot__)}
     , m_evalLoop{*this, /*convergeLimit:*/ 10000}
     , clk{vlSymsp->vlInst.TOP.__VprimaryPorts.clk}
+    , rst{vlSymsp->vlInst.TOP.__VprimaryPorts.rst}
     , PC{vlSymsp->vlInst.TOP.__VprimaryPorts.PC}
     , instr{vlSymsp->vlInst.TOP.__VprimaryPorts.instr}
     , rootp{&(vlSymsp->vlInst.TOP)}
@@ -224,6 +225,6 @@ VL_ATTR_COLD void Vtop::traceBaseModel(VerilatedTraceBaseC* tfp, int levels, int
             " use --trace-fst with VerilatedFst object, and --trace-vcd with VerilatedVcd object");
     }
     stfp->spTrace()->addModel(this);
-    stfp->spTrace()->addInitCb(&trace_init, &(vlSymsp->vlInst.TOP), name(), false, 57);
+    stfp->spTrace()->addInitCb(&trace_init, &(vlSymsp->vlInst.TOP), name(), false, 58);
     Vtop___024root__trace_register(&(vlSymsp->vlInst.TOP), stfp->spTrace());
 }

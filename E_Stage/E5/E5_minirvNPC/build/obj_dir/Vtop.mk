@@ -4,7 +4,7 @@
 # Execute this makefile from the object directory:
 #    make -f Vtop.mk
 
-default: /home/caiyaohao/ysyx-workbench/npc/build/top
+default: /home/caiyaohao/OneStudentOneChip/E_Stage/E5/E5_minirvNPC/build/top
 
 ### Constants...
 # Perl executable (from $PERL, defaults to 'perl' if not set)
@@ -53,7 +53,9 @@ VM_USER_LDLIBS_FILES = \
 # User .cpp files (from .cpp's on Verilator command line)
 VM_USER_CLASSES = \
   Memory \
+  difftest \
   main \
+  minirvEMU \
 
 # User .cpp directories (from .cpp's on Verilator command line)
 VM_USER_DIR = \
@@ -71,11 +73,15 @@ VPATH += $(VM_USER_DIR)
 
 Memory.o: csrc/Memory.cpp 
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST)  -c -o $@ $<
+difftest.o: csrc/difftest.cpp 
+	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST)  -c -o $@ $<
 main.o: csrc/main.cpp 
+	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST)  -c -o $@ $<
+minirvEMU.o: csrc/minirvEMU.cpp 
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST)  -c -o $@ $<
 
 ### Link rules... (from --exe)
-/home/caiyaohao/ysyx-workbench/npc/build/top: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_USER_LDLIBS_FILES)
+/home/caiyaohao/OneStudentOneChip/E_Stage/E5/E5_minirvNPC/build/top: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_USER_LDLIBS_FILES)
 	$(LINK) $(LDFLAGS) $(filter-out $(VM_USER_LDLIBS_FILES),$^) $(LOADLIBES) $(LDLIBS) $(LIBS) $(SC_LIBS) -o $@
 
 # Verilated -*- Makefile -*-
