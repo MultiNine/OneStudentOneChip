@@ -4,7 +4,7 @@
 # Execute this makefile from the object directory:
 #    make -f Vlfsr.mk
 
-default: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_DLCO/Lab6/lfsr/build/Vlfsr_nvboard
+default: /home/caiyaohao/OneStudentOneChip/E_Stage/E4/E4_DLCO/Lab6/lfsr/build/Vlfsr_nvboard
 
 ### Constants...
 # Perl executable (from $PERL, defaults to 'perl' if not set)
@@ -12,7 +12,7 @@ PERL = perl
 # Python3 executable (from $PYTHON3, defaults to 'python3' if not set)
 PYTHON3 = python3
 # Path to Verilator kit (from $VERILATOR_ROOT)
-VERILATOR_ROOT = /usr/local/share/verilator
+VERILATOR_ROOT = /home/caiyaohao/ysyx-workbench/oss-cad-suite/share/verilator
 # SystemC include directory with systemc.h (from $SYSTEMC_INCLUDE)
 SYSTEMC_INCLUDE ?=
 # SystemC library directory with libsystemc.a (from $SYSTEMC_LIBDIR)
@@ -74,16 +74,17 @@ include Vlfsr_classes.mk
 # Include global rules
 include $(VERILATOR_ROOT)/include/verilated.mk
 
+
 ### Executable rules... (from --exe)
 VPATH += $(VM_USER_DIR)
 
-auto_bind.o: /home/caiyaohao/OneStudentOneChip/E_Stage/E4_DLCO/Lab6/lfsr/build/auto_bind.cpp 
+auto_bind.o: /home/caiyaohao/OneStudentOneChip/E_Stage/E4/E4_DLCO/Lab6/lfsr/build/auto_bind.cpp 
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST)  -c -o $@ $<
 nvboard_lfsr.o: nvboard_lfsr.cpp 
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST)  -c -o $@ $<
 
 ### Link rules... (from --exe)
-/home/caiyaohao/OneStudentOneChip/E_Stage/E4_DLCO/Lab6/lfsr/build/Vlfsr_nvboard: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_USER_LDLIBS_FILES)
+/home/caiyaohao/OneStudentOneChip/E_Stage/E4/E4_DLCO/Lab6/lfsr/build/Vlfsr_nvboard: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_USER_LDLIBS_FILES)
 	$(LINK) $(LDFLAGS) $(filter-out $(VM_USER_LDLIBS_FILES),$^) $(LOADLIBES) $(LDLIBS) $(LIBS) $(SC_LIBS) -o $@
 
 # Verilated -*- Makefile -*-

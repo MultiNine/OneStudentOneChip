@@ -17,7 +17,7 @@ module lfsr(clk, rst, dout, segout1, segout0);
         end
         else begin
             dout <= {feedback, dout[7:1]};
-        endgit
+        end
     end
 
 endmodule

@@ -7,12 +7,14 @@
 ### Switches...
 # C11 constructs required?  0/1 (always on now)
 VM_C11 = 1
-# Timing enabled?  0/1
-VM_TIMING = 0
 # Coverage output mode?  0/1 (from --coverage)
 VM_COVERAGE = 0
+# DPI enabled?  0/1
+VM_DPI = 0
 # Parallel builds?  0/1 (from --output-split)
 VM_PARALLEL_BUILDS = 0
+# Timing enabled?  0/1
+VM_TIMING = 0
 # Tracing output mode?  0/1 (from --trace-fst/--trace-saif/--trace-vcd)
 VM_TRACE = 0
 # Tracing output mode in FST format?  0/1 (from --trace-fst)

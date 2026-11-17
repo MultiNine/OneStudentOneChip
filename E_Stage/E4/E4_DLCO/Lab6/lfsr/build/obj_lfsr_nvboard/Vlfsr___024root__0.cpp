@@ -23,6 +23,7 @@ bool Vlfsr___024root___eval_ico(Vlfsr___024root* vlSelf, ::CData/*0:0*/ firstIte
                                       & vlSelfRef.__VicoTriggered[1U]) 
                                      | (::IData)((::IData)(firstIteration)));
     {
+        // Body
         // Inlined CFunc: _eval_triggers_vec__ico
         vlSelfRef.__VicoTriggered[0U] = (::QData)((::IData)(
                                                             ((((::IData)(vlSelfRef.__VprimaryPorts.rst) 
@@ -52,6 +53,7 @@ bool Vlfsr___024root___eval_act(Vlfsr___024root* vlSelf) {
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
     {
+        // Body
         // Inlined CFunc: _eval_triggers_vec__act
         vlSelfRef.__VactTriggered[0U] = (::QData)((::IData)(
                                                             ((((::IData)(vlSelfRef.__VprimaryPorts.rst) 
@@ -93,9 +95,11 @@ bool Vlfsr___024root___eval_nba(Vlfsr___024root* vlSelf) {
     __VnbaExecute = Vlfsr___024root___trigger_anySet__act(vlSelfRef.__VnbaTriggered);
     if (__VnbaExecute) {
         {
+            // Body
             // Inlined CFunc: _eval_body__nba
             if ((((3ULL & vlSelfRef.__VnbaTriggered[0U])) != 0ULL)) {
                 {
+                    // Body
                     // Inlined CFunc: _nba_sequent__TOP__0
                     vlSelfRef.__VprimaryPorts.dout 
                         = ((::IData)(vlSelfRef.__VprimaryPorts.rst)
@@ -106,12 +110,67 @@ bool Vlfsr___024root___eval_nba(Vlfsr___024root* vlSelf) {
                                                  & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
                                                     >> 1U))));
                     vlSelfRef.__VprimaryPorts.segout1 
-                        = (0x000000ffU & Vlfsr__ConstPool__CONST_0
-                           [(0x0000000fU & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
-                                            >> 4U))]);
+                        = (0x000000ffU & (((0U == (0x0000001fU 
+                                                   & (::IData)(
+                                                               (0x000001e0U 
+                                                                & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                                   << 1U)))))
+                                            ? 0U : 
+                                           (Vlfsr__ConstPool__CONST_0
+                                            [(((::IData)(7U) 
+                                               + (::IData)(
+                                                           (0x000001e0U 
+                                                            & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                               << 1U)))) 
+                                              >> 5U)] 
+                                            << ((::IData)(0x00000020U) 
+                                                - (0x0000001fU 
+                                                   & (::IData)(
+                                                               (0x000001e0U 
+                                                                & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                                   << 1U))))))) 
+                                          | (Vlfsr__ConstPool__CONST_0
+                                             [((::IData)(
+                                                         (0x000001e0U 
+                                                          & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                             << 1U))) 
+                                               >> 5U)] 
+                                             >> (0x0000001fU 
+                                                 & (::IData)(
+                                                             (0x000001e0U 
+                                                              & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                                 << 1U)))))));
                     vlSelfRef.__VprimaryPorts.segout0 
-                        = (0x000000ffU & Vlfsr__ConstPool__CONST_0
-                           [(0x0000000fU & (::IData)(vlSelfRef.__VprimaryPorts.dout))]);
+                        = (0x000000ffU & (((0U == (0x0000001fU 
+                                                   & (::IData)(
+                                                               (0x000001e0U 
+                                                                & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                                   << 5U)))))
+                                            ? 0U : 
+                                           (Vlfsr__ConstPool__CONST_0
+                                            [(((::IData)(7U) 
+                                               + (::IData)(
+                                                           (0x000001e0U 
+                                                            & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                               << 5U)))) 
+                                              >> 5U)] 
+                                            << ((::IData)(0x00000020U) 
+                                                - (0x0000001fU 
+                                                   & (::IData)(
+                                                               (0x000001e0U 
+                                                                & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                                   << 5U))))))) 
+                                          | (Vlfsr__ConstPool__CONST_0
+                                             [((::IData)(
+                                                         (0x000001e0U 
+                                                          & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                             << 5U))) 
+                                               >> 5U)] 
+                                             >> (0x0000001fU 
+                                                 & (::IData)(
+                                                             (0x000001e0U 
+                                                              & ((::IData)(vlSelfRef.__VprimaryPorts.dout) 
+                                                                 << 5U)))))));
                 }
             }
         }
