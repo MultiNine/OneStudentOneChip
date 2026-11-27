@@ -1,0 +1,15 @@
+.dide/
+.vscode/
+
+build/
+obj_dir/
+
+*.vcd
+*.fst
+
+*.o
+*.a
+*.d
+*.vpi
+*.vvp
+systemverilog.bin
